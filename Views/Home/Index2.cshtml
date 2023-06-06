@@ -1,0 +1,300 @@
+﻿
+@using shoesAPI.Models
+
+@model IEnumerable<ModelShoesDB>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/sayt.css" />
+</head>
+<body>
+    <div class="headside">
+        <nav>
+            <ul>
+                <li>
+                    <a href="menu">
+                        <img src="https://w7.pngwing.com/pngs/456/1003/png-transparent-computer-icons-menu-hamburger-button-menu-text-rectangle-black.png"
+                             alt="menu"
+                             class="menubuttom"
+                             width="68px" />
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">
+                        <img src="~/img/images.png"
+                             class="imagephoto"
+                             alt="main"
+                             width="63px"
+                             height="50" />
+                    </a>
+
+                </li>
+                <li>
+                    <a href="amazon">
+                        <img src="~/img/amazon-logo-on-transparent-background-free-vector.jpg"
+                             class="imagephoto"
+                             width="63px"
+                             height="50"
+                             alt="amazon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="StockX">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQC9ThiL_i08CgFJiQWCAzNGZttanxQr22L8vaJPADOC8QkyJeB0-7tcB5wWv6UP4u6Lg&usqp=CAU"
+                             class="imagephoto"
+                             alt="StoxckX"
+                             width="63px"
+                             height="50" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="search">
+            <form method="get" asp-action="Index">
+                <input type="text" name="shoesmodel" class="my-input" placeholder="I'm looking for..." />
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a class="blur-button" onclick="openWindow()" href="#">
+                        <img src="~/img/pngtree-shopping-cart-icon-png-image_1736144.jpg"
+                             class="imagephoto"
+                             alt="Basket"
+                             width="50px"
+                             height="50px" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg "
+                             class="imagephoto"
+                             alt="log in"
+                             width="50px"
+                             height="50px" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <div class="maincontainer">
+        <div class="container">
+
+
+            @foreach (var item in Model)
+            {
+                <div class="product">
+                    <img class="photo" src="@item.thumbnail" alt="Товар 1" />
+                    <h3>@item.shoeName</h3>
+                    <div class="prices-container">
+                        <div class="prices">
+                            @if (item.stockX != null || item.goat != null || item.flightClub != null)
+                            {
+                                <ul>
+                                    @if (item.stockX != null)
+                                    {
+                                        <li><span>StockX:</span> @item.stockX $</li>
+                                    }
+                                    @if (item.goat != null)
+                                    {
+                                        <li><span>GOAT:</span> @item.goat $</li>
+                                    }
+                                    @if (item.flightClub != null)
+                                    {
+                                        <li><span>Flight Club:</span> @item.flightClub $</li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <p>No price available</p>
+                            }
+                        </div>
+                        <div class="buy-buttons">
+                            <a href="https://stockx.com" target="_blank">
+                                <button class="buttonbuy1">Купити StockX</button>
+                            </a>
+                            <a href="https://www.goat.com" target="_blank">
+                                <button class="buttonbuy1">Купити GOAT</button>
+                            </a>
+                            <a href="https://www.flightclub.com/" target="_blank">
+                                <button class="buttonbuy1">Купити Flight Club</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+
+        <div class="container">
+            <div class="product">
+                <img class="photo"
+                     src="~/img/nike-dunk-low-university-blue-1000x1000.jpg"
+                     alt="Товар 3" />
+                <h3>nike dunk retro</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+                <button class=" buttonbuy">Купити</button>
+            </div>
+            <div class="product">
+                <img class="photo"
+                     src="~/img/nike-dunk-low-pro-sb-bart-simpson-1000x1000.jpg"
+                     alt="Товар 3" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+                <button class=" buttonbuy">Купити</button>
+            </div>
+            <div class="product">
+                <img class="photo"
+                     src="~/img/nike-dunk-low-retro-black-white-1000x1000.jpg"
+                     alt="Товар 3" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+                <button class=" buttonbuy">Купити</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="photo"
+                     src="https://cdn.shopify.com/s/files/1/0473/6965/0340/products/2bbd76ccc4b80cb7c121caa0de74c0cf9e96f41f_1202A056_108_asics_gel_kayano_14_white_aizuri_blue_SM_1_768x768_crop_center.jpg?v=1674224261"
+                     alt="Товар 1" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+
+
+                <button class=" buttonbuy">Купити</button>
+            </div>
+            <div class="product">
+                <img class="photo"
+                     src="https://cdn.shopify.com/s/files/1/0473/6965/0340/products/2bbd76ccc4b80cb7c121caa0de74c0cf9e96f41f_1202A056_108_asics_gel_kayano_14_white_aizuri_blue_SM_1_768x768_crop_center.jpg?v=1674224261"
+                     alt="Товар 2" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+                <button class=" buttonbuy">Купити</button>
+            </div>
+            <div class="product">
+                <img class="photo"
+                     src="https://cdn.shopify.com/s/files/1/0473/6965/0340/products/2bbd76ccc4b80cb7c121caa0de74c0cf9e96f41f_1202A056_108_asics_gel_kayano_14_white_aizuri_blue_SM_1_768x768_crop_center.jpg?v=1674224261"
+                     alt="Товар 3" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+                <button class=" buttonbuy">Купити</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="photo"
+                     src="https://cdn.shopify.com/s/files/1/0473/6965/0340/products/2bbd76ccc4b80cb7c121caa0de74c0cf9e96f41f_1202A056_108_asics_gel_kayano_14_white_aizuri_blue_SM_1_768x768_crop_center.jpg?v=1674224261"
+                     alt="Товар 1" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+
+
+                <button class=" buttonbuy">Купити</button>
+            </div>
+            <div class="product">
+                <img class="photo"
+                     src="https://cdn.shopify.com/s/files/1/0473/6965/0340/products/2bbd76ccc4b80cb7c121caa0de74c0cf9e96f41f_1202A056_108_asics_gel_kayano_14_white_aizuri_blue_SM_1_768x768_crop_center.jpg?v=1674224261"
+                     alt="Товар 2" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+                <button class=" buttonbuy">Купити</button>
+            </div>
+            <div class="product">
+                <img class="photo"
+                     src="https://cdn.shopify.com/s/files/1/0473/6965/0340/products/2bbd76ccc4b80cb7c121caa0de74c0cf9e96f41f_1202A056_108_asics_gel_kayano_14_white_aizuri_blue_SM_1_768x768_crop_center.jpg?v=1674224261"
+                     alt="Товар 3" />
+                <h3>ASICS gel-kayano 14</h3>
+                <button class="buttonlike">
+                    <img class="like" src="~/img/pngwing.com-2.png" alt="like">
+                </button>
+                <button class=" buttonbuy">Купити</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="leftcontainer">
+        <nav>
+            <ul>
+                <li><a href="cfqn.html" class="adidas">Adidas</a></li>
+                <li><a href="file:///Users/nazarmarusak/Documents/безіменна%20папка/saytnike.html" class="nike">Nike</a></li>
+                <li><a href="file:///Users/nazarmarusak/Documents/безіменна%20папка/saytasics.html" class="asics">Asics</a></li>
+                <li><a href="file:///Users/nazarmarusak/Documents/безіменна%20папка/saytnewbalance.html" class="new-balance">New Balance</a></li>
+                <li><a href="file:///Users/nazarmarusak/Documents/безіменна%20папка/saytpuma.html" class="puma">Puma</a></li>
+                <li><a href="file:///Users/nazarmarusak/Documents/безіменна%20папка/saytbalenciaga.html" class="balenciaga">Balenciaga</a></li>
+                <li><a href="file:///Users/nazarmarusak/Documents/безіменна%20папка/saytgucci.html" class="gucci">Gucci</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="myWindow" class="window" style="display: none">
+        <div class="header">
+            <h3 class="headname">Кошик</h3>
+            <span class="close-btn" onclick="closeWindow()">&times;</span>
+        </div>
+
+        <div>
+            <div class="product-window" id="cart-container">
+                <div class="product-info">
+                    <h3>NIKE dunk low</h3>
+                    <img src="~/img/nike-dunk-low-pro-sb-bart-simpson-1000x1000.jpg" alt="Зображення товару">
+                    <p>Ціна: $10</p>
+                    <!-- +- -->
+                    <div class="quantity-container">
+                        <p>Кількість : <span class="quantity"></span></p>
+                        <button class="quantity-minus">-</button>
+                        <input class="quantity-input" type="text" value="1">
+                        <button class="quantity-plus">+</button>
+                    </div>
+                    <!-- Загальна ціна, оформити замовлення -->
+                </div>
+
+
+            </div>
+
+
+
+            <span class="close-btn-basket" onclick="closeWindow()">&times;</span>
+        </div>
+        <div class="cart">
+            <div class="total">
+                <p class="tetxallprice">Загальна вартість: $10</p>
+            </div>
+        </div>
+
+        <button class="checkout">Оформити замовлення</button>
+    </div>
+
+
+    <script src="js/basket.js"></script>
+</body>
+</html>
+
+
+

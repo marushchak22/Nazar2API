@@ -302,3 +302,63 @@ ul.pricol div{
   padding: 0;
   vertical-align: top;
 }
+
+
+
+
+/* ціни з 3 інтернет магазинів*/
+.prices-container {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.prices {
+    margin-bottom: 10px;
+}
+
+    .prices ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .prices li {
+        margin-bottom: 5px;
+    }
+
+        .prices li span {
+            font-weight: bold;
+        }
+
+.buy-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttonbuy1 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .buttonbuy1:hover {
+        background-color: #45a049;
+    }
+
+    .buttonbuy1:active {
+        background-color: #3e8e41;
+    }
+
+.buy-buttons button:not(:last-child) {
+    margin-right: 3px;
+}
+

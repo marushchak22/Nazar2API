@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/obj/Release/net7.0/scopedcss/projectbundle/Nazar2API.bundle.scp.css",
+      "PackagePath": "staticwebassets/Nazar2API.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/basket.css",
+      "PackagePath": "staticwebassets/css/basket.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/sayt.css",
+      "PackagePath": "staticwebassets/css/sayt.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/saytadidas.css",
+      "PackagePath": "staticwebassets/css/saytadidas.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/saytasics.css",
+      "PackagePath": "staticwebassets/css/saytasics.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/saytbalenciaga.css",
+      "PackagePath": "staticwebassets/css/saytbalenciaga.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/saytgucci.css",
+      "PackagePath": "staticwebassets/css/saytgucci.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/saytnewbalance.css",
+      "PackagePath": "staticwebassets/css/saytnewbalance.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/saytnike.css",
+      "PackagePath": "staticwebassets/css/saytnike.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/css/saytpuma.css",
+      "PackagePath": "staticwebassets/css/saytpuma.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/0b6761a585f41383cfd8f66602c08e02-2.jpg",
+      "PackagePath": "staticwebassets/img/0b6761a585f41383cfd8f66602c08e02-2.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/Balenciaga-logo-1917-2.jpg",
+      "PackagePath": "staticwebassets/img/Balenciaga-logo-1917-2.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/Balenciaga-logo-2013-2.jpg",
+      "PackagePath": "staticwebassets/img/Balenciaga-logo-2013-2.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/Logo_brand_Adidas.png",
+      "PackagePath": "staticwebassets/img/Logo_brand_Adidas.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/Puma-2-2.png",
+      "PackagePath": "staticwebassets/img/Puma-2-2.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/Puma-2-3.png",
+      "PackagePath": "staticwebassets/img/Puma-2-3.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/adidas2-2.jpeg",
+      "PackagePath": "staticwebassets/img/adidas2-2.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/amazon-logo-on-transparent-background-free-vector.jpg",
+      "PackagePath": "staticwebassets/img/amazon-logo-on-transparent-background-free-vector.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/asics-2.png",
+      "PackagePath": "staticwebassets/img/asics-2.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/asics2-2.jpeg",
+      "PackagePath": "staticwebassets/img/asics2-2.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/asics2623-2.jpg",
+      "PackagePath": "staticwebassets/img/asics2623-2.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/dunk2.jpeg",
+      "PackagePath": "staticwebassets/img/dunk2.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/dunk3.webp",
+      "PackagePath": "staticwebassets/img/dunk3.webp"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/dunk4.jpeg",
+      "PackagePath": "staticwebassets/img/dunk4.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/dunk5.jpeg",
+      "PackagePath": "staticwebassets/img/dunk5.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/dunk6.jpeg",
+      "PackagePath": "staticwebassets/img/dunk6.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/dunk8.webp",
+      "PackagePath": "staticwebassets/img/dunk8.webp"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/gucci-2.jpeg",
+      "PackagePath": "staticwebassets/img/gucci-2.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/hart.webp",
+      "PackagePath": "staticwebassets/img/hart.webp"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/hurt2.png",
+      "PackagePath": "staticwebassets/img/hurt2.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/images.png",
+      "PackagePath": "staticwebassets/img/images.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/new-balance-2.jpeg",
+      "PackagePath": "staticwebassets/img/new-balance-2.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/newbalance2-2.png",
+      "PackagePath": "staticwebassets/img/newbalance2-2.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/nike-2.png",
+      "PackagePath": "staticwebassets/img/nike-2.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/nike-dunk-low-pro-sb-bart-simpson-1000x1000.jpg",
+      "PackagePath": "staticwebassets/img/nike-dunk-low-pro-sb-bart-simpson-1000x1000.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/nike-dunk-low-retro-black-white-1000x1000.jpg",
+      "PackagePath": "staticwebassets/img/nike-dunk-low-retro-black-white-1000x1000.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/nike-dunk-low-university-blue-1000x1000.jpg",
+      "PackagePath": "staticwebassets/img/nike-dunk-low-university-blue-1000x1000.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/photo_2023-04-17 14.01.57-2.jpeg",
+      "PackagePath": "staticwebassets/img/photo_2023-04-17 14.01.57-2.jpeg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/pngtree-shopping-cart-icon-png-image_1736144.jpg",
+      "PackagePath": "staticwebassets/img/pngtree-shopping-cart-icon-png-image_1736144.jpg"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/img/pngwing.com-2.png",
+      "PackagePath": "staticwebassets/img/pngwing.com-2.png"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/nazarmarusak/Projects/Nazar2API/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.Nazar2API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.Nazar2API.props",
+      "PackagePath": "build\\Nazar2API.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.Nazar2API.props",
+      "PackagePath": "buildMultiTargeting\\Nazar2API.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.Nazar2API.props",
+      "PackagePath": "buildTransitive\\Nazar2API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

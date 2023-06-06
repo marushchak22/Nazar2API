@@ -1,4 +1,41 @@
-﻿<Properties StartupConfiguration="{0B969283-9885-4DCF-B950-437453C8FBB0}|https">
+﻿<Properties StartupConfiguration="{0B969283-9885-4DCF-B950-437453C8FBB0}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.Nazar2API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Nazar2API FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
+    <Files>
+      <File FileName="ShoesClients/ShoesClients.cs" Line="17" Column="10" />
+      <File FileName="Controllers/HomeController.cs" Line="35" Column="49" />
+      <File FileName="Models/ShoesModel.cs" Line="31" Column="1" />
+      <File FileName="Extensions/TranformForDB.cs" Line="34" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="10" Column="1" />
+      <File FileName="Program.cs" Line="26" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="32" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Nazar2API" expanded="True">
+            <Node name="Nazar2API" expanded="True">
+              <Node name="Clients" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
