@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.headpuma{
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    background-color: aquamarine;
+}
+.leftpuma{
+    width: 18%;
+    background-color: aqua;
+    float: left;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.leftpuma ul li{
+    list-style: none;
+    padding: 29.5px;
+}
+
+.leftpuma li {
+  position:relative;
+  padding-left: -5px; /* встановлюємо відступ для тексту */
+  margin-bottom: -40px; /* встановлюємо відступ між елементами */
+  margin-top: -20px;
+}
+
+.leftpuma input[type="checkbox"] {
+  position: absolute;
+  right: 101%;
+  margin: -4;
+  padding: 0;
+  width: 15px; /* може змінюватися в залежності від потреб */
+  height: 15px; /* може змінюватися в залежності від потреб */
+}
+
+
+.maincontainer{
+    overflow: scroll;
+    height: 600px;
+    background-color: #ffffff;
+    width: 79%;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    padding: 16px;
+    margin: 20px -10px;
+  }
+  
+  .product {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+  }
+
+  .container {
+
+    margin: 0px 10px 120px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+  
+  }
+  
+  .product {
+    
+    width: 32%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: -15px 1px -80px 4px;
+    float: right;
+  }
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+  }
+  .product>h3 {
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .product button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #22983a;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .product button:hover {
+    background-color:#22983ab0;
+  }
+  

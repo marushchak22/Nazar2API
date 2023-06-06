@@ -1,0 +1,304 @@
+*{font-family: 'Fira Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.like {
+  display: flex;
+  width: 30px;
+  margin: 0px;
+}
+.buttonlike{
+  margin-top: 10px;
+  padding-top: -5px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.product {
+  
+  width: 32%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: -15px 1px -80px 4px;
+  float: right;
+}
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+.product>h3 {
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.headadidas {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.leftadidas {
+  font-family: 'Fira Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+  width: 18%;
+  background-color: rgb(15, 14, 14);
+  float: left;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.maincolor{
+position: relative;
+margin-right: 100%;
+ background-color: #4185e4;
+ padding-left: 100px;
+ padding-right: 164px;
+ position: relative;
+ transform: translateX(-29%); 
+ margin-top: -25px;
+}
+.underleft{
+  height: -20px;
+}
+.leftadidas h3 {
+  margin-bottom: 0px;
+  text-align: center;
+  color:#ffffff;
+
+}
+.leftadidas ul h3 {
+  position: relative;
+  padding-left: -5px;
+  color:#ffffff
+}
+.leftadidas ul li {
+  list-style: none;
+  padding: 29.5px;
+  color:#ffffff
+}
+
+.leftadidas li {
+  position: relative;
+  padding-left: -5px; 
+  margin-bottom: -40px;
+  margin-top: -20px;
+}
+
+.leftadidas input[type="checkbox"] {
+  position: absolute;
+  right: 101%;
+  margin: -4;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+}
+a {
+  text-decoration: none;
+  margin-left: -20px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  width: 10px;
+}
+.sizebutton1 {
+    width: calc(25% - 10px);
+    margin-top: -10px;
+    margin: 5px ;
+    padding: 10px ;
+    
+    background-color: rgb(116, 135, 231);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: -20px;
+  }
+  .sizebutton2 {
+     width: calc(25% - 10px);
+      margin-top: -10px;
+      margin: 5px ;
+      padding: 10px ;
+      background-color: rgb(138, 171, 229);
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 12.5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+      margin-left: -20px;
+    }
+  
+  .sizebutton1:hover,.sizebutton2:hover  {
+    background-color:#020c57b0;
+  }
+
+
+
+.wordprise {
+  margin-top: 70px;
+}
+.mainsize{
+  background-color: #4185e4;
+  padding-left: 95px;
+ padding-right: 104px;
+}
+
+.maincontainer {
+  overflow: scroll;
+  height: 600px;
+  background-color: #ffffff;
+  width: 79%;
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  padding: 16px;
+  margin: 20px -10px;
+}
+
+.container {
+  margin: 0px 10px 120px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonbuy {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  margin-left: 70px;
+  background-color: #22983a;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttonbuy:hover {
+  background-color:#22983ab0;
+}
+
+
+/* Загальні стилі для форми */
+.leftadidas .ulinprice {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.pricevariable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: -25px;
+    width: 265px;
+}
+
+
+
+/* Стилі для полів введення */
+.wordprice {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  width: 40px;
+}
+.mainprice{
+  background-color: #4185e4;
+ position: relative;
+ top: 0;
+ right: 20px;
+ object-fit: cover;
+}
+ul.pricevariable div{
+  margin: -10px;
+  padding: 0;
+  display: inline-block;
+}
+/* Стилі для кнопки */
+.okbutton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wordsize {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.wordsize li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.separate {
+  height: 10px;
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+  .sizebutton1 {
+    margin: 5px;
+    width: 43px;
+
+  }
+
+  .sizebutton2 {
+    margin: 5px;
+    width: 40px;
+    font-size: 13x;
+  }
+}
+ul.wordsize li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+ul.pricol div{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
